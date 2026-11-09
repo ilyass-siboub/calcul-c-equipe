@@ -1,14 +1,24 @@
 #include <stdio.h>
-void produit(int a,int b){
-	printf("entrer les deux entiers\n");
-	scanf("%d %d",&a,&b);
+int produit(int a,int b){
 	printf("le produit est : %d \n",a*b);
+	return(a * b);
+}
+
+int moyenne(int a, int b)
+{
+	printf("La moyenne est : %d \n", (a + b)/2);
+	return ((a + b)/2);
 }
 int	main()
 {
-	int a,b;
+	int	a,b;
 	printf(" Projet Collaboratif \n");
-    produit(a,b);
+	printf("Entrer premier entier: ");
+        scanf("%d", &a);
+        printf("Entrer deuxieme entier: ");
+        scanf("%d", &b);
+    	produit(a,b);
+	moyenne(a,b);
 	return 0;
 }
 
