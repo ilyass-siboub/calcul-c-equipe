@@ -1,13 +1,14 @@
 #include <stdio.h>
-int produit(int a,int b){
+void produit(int a,int b){
+	printf("entrer les deux entiers\n");
 	scanf("%d %d",&a,&b);
-	return a*b;
+	printf("le produit est : %d \n",a*b);
 }
 int	main()
 {
 	int a,b;
 	printf(" Projet Collaboratif \n");
-    printf("le produit est %d \n",produit(a,b));
+    produit(a,b);
 	return 0;
 }
 
