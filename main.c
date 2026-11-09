@@ -10,7 +10,7 @@ double moyenne(int a, int b)
 	return (a + b)/2.0;
 }
 int	main()
-{
+{printf("conflit\n");
 	int	a,b;
 	printf(" Projet Collaboratif \n");
 	printf("Entrer premier entier: ");
