@@ -1,6 +1,5 @@
 #include <stdio.h>
 int produit(int a,int b){
-	printf("entrer les deux entiers\n");
 	scanf("%d %d",&a,&b);
 	return a*b;
 }
