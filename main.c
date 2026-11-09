@@ -11,7 +11,7 @@ double moyenne(int a, int b)
 }
 int	main()
 {
-	int	a,b;
+	int	a, b;
 	printf(" Projet Collaboratif \n");
 	printf("Entrer premier entier: ");
         scanf("%d", &a);
