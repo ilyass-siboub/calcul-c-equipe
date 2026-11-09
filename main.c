@@ -4,10 +4,10 @@ int produit(int a,int b){
 	return(a * b);
 }
 
-int moyenne(int a, int b)
+double moyenne(int a, int b)
 {
-	printf("La moyenne est : %d \n", (a + b)/2);
-	return ((a + b)/2);
+	printf("La moyenne est : %.2f \n", (double)(a + b)/2);
+	return (a + b)/2.0;
 }
 int	main()
 {
